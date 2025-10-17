@@ -10,8 +10,8 @@ print("Đang thực hiện code...")
 
 # Thư mục chứa 2 file code Unity
 # Windows: r"D:\FPT Polytechnic\NhapMonLTGA\Unity Projects"
-# macOS: "/Users/khangng/Downloads/Hoc FPT/Unity project/Link-Unity-Projects"
-project_path = r"D:\FPT Polytechnic\NhapMonLTGA\Unity Projects" if sys.platform.startswith("win") else "/Users/khangng/Downloads/Hoc FPT/Unity project/Link-Unity-Projects"
+# macOS: "/Users/khangng/Downloads/Hoc FPT/_ASSETS"
+project_path = r"D:\FPT Polytechnic\NhapMonLTGA\Unity Projects" if sys.platform.startswith("win") else "/Users/khangng/Downloads/Hoc FPT/_ASSETS"
 os.chdir(project_path)
 
 # Khởi động SSH agent (chỉ cần trên Mac/Linux, Windows thì bỏ dòng này)
